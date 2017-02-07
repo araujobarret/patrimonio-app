@@ -1,0 +1,25 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-4 col-md-offset-4 login-container">
+
+      <form [formGroup]="formLogin" (ngSubmit)="onSubmit()">
+        <div class="row users-form-group">
+          <label for="login" class="col-md-3 col-md-offset-2 users-form-element">Login:</label>
+          <input type="text" class="col-md-5" id="login" formControlName="login">
+        </div>
+        <br>
+        <div class="row users-form-group">
+          <label for="senha" class="col-md-3 col-md-offset-2 users-form-element">Senha:</label>
+          <input type="password" class="col-md-5" id="senha" formControlName="senha">
+        </div>
+
+        <div class="row users-form-group">
+          <div class="users-form-element">
+            <button class="users-btn-login">Entrar</button>
+          </div>
+        </div>
+      </form>
+
+    </div>
+  </div>
+</div>

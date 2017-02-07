@@ -1,0 +1,43 @@
+
+.login-container {
+    margin-top: 15%;
+    padding-top: 5%;
+    padding-left: 0;
+    padding-right: 0;
+    background-color: #66bb6a;
+    color: #fff;
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+
+.users-form-group{
+    margin-bottom: 15px;
+}
+
+.users-form-element{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+input[type="text"], input[type="password"]{
+    border: none;
+    color: #000;
+    font-family: 'Source Sans Pro';
+    font-weight: normal;
+
+}
+
+.users-btn-login{
+    background-color: #81c784;
+    border: none;
+    padding: 8px 18px;
+    margin: 10px auto 20px auto;
+    display: block;
+}
+
+.users-btn-default{
+    background-color: #81c784;
+    border: none;
+    padding: 8px 18px;
+    margin: 10px 0px 20px 0px;
+}
