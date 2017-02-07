@@ -35,6 +35,20 @@ input[type="text"], input[type="password"]{
     display: block;
 }
 
+.users-btn-login:hover{
+    background-color: #8edb92;
+}
+
+.users-btn-login:active{
+    background-color: #46a949;
+    transform: translateY(2px);
+}
+
+.users-btn-login:disabled{
+    background-color: #468749;
+    color: #ccc;
+}
+
 .users-btn-default{
     background-color: #81c784;
     border: none;

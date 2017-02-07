@@ -15,7 +15,7 @@
 
         <div class="row users-form-group">
           <div class="users-form-element">
-            <button class="users-btn-login">Entrar</button>
+            <button class="users-btn-login" [disabled]="!formLogin.valid">Entrar</button>
           </div>
         </div>
       </form>
