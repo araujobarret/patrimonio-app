@@ -10,6 +10,18 @@
     font-weight: bold;
 }
 
+.login-header {
+    margin: -20% auto 30px auto;
+    background-color: #468749;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.login-header-text{
+    display: block;
+    text-align: center;
+}
+
 .users-form-group{
     margin-bottom: 15px;
 }
@@ -24,34 +36,11 @@ input[type="text"], input[type="password"]{
     color: #000;
     font-family: 'Source Sans Pro';
     font-weight: normal;
-
+    padding-left: 4px;
 }
 
 .users-btn-login{
-    background-color: #81c784;
-    border: none;
     padding: 8px 18px;
     margin: 10px auto 20px auto;
     display: block;
-}
-
-.users-btn-login:hover{
-    background-color: #8edb92;
-}
-
-.users-btn-login:active{
-    background-color: #46a949;
-    transform: translateY(2px);
-}
-
-.users-btn-login:disabled{
-    background-color: #468749;
-    color: #ccc;
-}
-
-.users-btn-default{
-    background-color: #81c784;
-    border: none;
-    padding: 8px 18px;
-    margin: 10px 0px 20px 0px;
 }

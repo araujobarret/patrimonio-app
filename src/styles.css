@@ -1,1 +1,25 @@
-/* You can add global styles to this file, and also import other style files */
+.users-btn:hover{
+    background-color: #8edb92;
+}
+
+.users-btn:active{
+    background-color: #46a949;
+    transform: translateY(2px);
+}
+
+.users-btn:disabled{
+    background-color: #468749;
+    color: #ccc;
+}
+
+.users-btn{
+    background-color: #81c784;
+    border: none;
+}
+
+.users-alert-error{
+    color: red;
+    margin: 0 auto 0 auto;
+    text-align: center;
+    display: block;
+}
