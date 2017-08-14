@@ -1,46 +1,53 @@
-
-.login-container {
-    margin-top: 15%;
-    padding-top: 5%;
-    padding-left: 0;
-    padding-right: 0;
-    background-color: #66bb6a;
+.patrimonio-container {
     color: #fff;
     font-family: 'Roboto';
-    font-weight: bold;
+    width: 100%;
+    min-height: 300px;
+    max-height: 450px;
+    display: flex;
+    justify-content: center;
+}
+
+.patrimonio-container2 {
+    flex: 0.4;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .login-header {
-    margin: -20% auto 30px auto;
-    background-color: #468749;
-    padding-top: 2%;
-    padding-bottom: 2%;
-}
-
-.login-header-text{
-    display: block;
     text-align: center;
+    background-color: #004d40;
+    padding: 1vw;
+    font-weight: bold;
 }
 
-.users-form-group{
-    margin-bottom: 15px;
+form {
+    background-color: #38786a;
 }
 
-.users-form-element{
-    padding-left: 0px;
-    padding-right: 0px;
+.form-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2vw 4vw 0vw 4vw;
 }
 
-input[type="text"], input[type="password"]{
-    border: none;
-    color: #000;
+.form-row label{
+    flex: 1;
     font-family: 'Source Sans Pro';
-    font-weight: normal;
-    padding-left: 4px;
 }
 
-.users-btn-login{
-    padding: 8px 18px;
-    margin: 10px auto 20px auto;
-    display: block;
+.form-row input {
+    border: none;
+    font-size: 1em;
+    flex: 2;
+}
+
+.form-row button{
+    border: none;
+    padding: 0.5vw 2vw;
+    color: #002419;
+    font-family: 'Source Sans Pro';
+    margin-bottom: 2vw;
 }

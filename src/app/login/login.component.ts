@@ -23,11 +23,7 @@ export class LoginComponent implements OnInit {
   }
 
   onSubmit(){
-    let user: User = new User();
-    user = this.formLogin.value;
-    if(this.auth.onLogin(user))
 
-      else
   }
 
 }
